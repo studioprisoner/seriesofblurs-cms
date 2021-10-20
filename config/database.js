@@ -5,11 +5,11 @@ module.exports = ({ env }) => ({
       connector: 'bookshelf',
       settings: {
         client: 'mysql',
-        host: env('DATABASE_HOST', 'tvf4es8akqs0.us-east-3.psdb.cloud'),
+        host: env('DATABASE_HOST', ''),
         port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'seriesofblurs-cms'),
-        username: env('DATABASE_USERNAME', 'bph6ijo16qe3'),
-        password: env('DATABASE_PASSWORD', 'pscale_pw_PjDCIxcMgoFL46cBlxitTvQA-Gjsx-ROUwgjwAyd7JY'),
+        database: env('DATABASE_NAME', ''),
+        username: env('DATABASE_USERNAME', ''),
+        password: env('DATABASE_PASSWORD', ''),
         ssl: env.bool('DATABASE_SSL', true),
       },
       options: {}
