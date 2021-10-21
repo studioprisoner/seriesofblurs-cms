@@ -21,6 +21,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "imagename": {
+      "type": "string"
     }
   }
 }
